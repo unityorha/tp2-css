@@ -1,0 +1,24 @@
+body {
+    background-color:antiquewhite;
+    font-family:'Copperplate Gothic Light';
+}
+
+.card {
+    border-style: double;
+    border-width: 30px;
+    border-color: blueviolet;
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-inline: 400px;
+    background-color: aquamarine;
+    text-align:center;
+}
+
+p {
+    color: #333;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight:600px;
+}
