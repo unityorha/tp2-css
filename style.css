@@ -22,3 +22,13 @@ p {
     font-size: 18px;
     font-weight:600px;
 }
+
+#unique {
+    color:orange;
+    font-style: italic;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
