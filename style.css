@@ -39,11 +39,15 @@ p {
 h1 {
     font-family: 'Segoe Print';
     color: plum;
+    font-size:100px;
+    text-align: center;
 }
 
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:cornflowerblue;
+    font-size:35px;
+    text-align:center;
 }
 
 a {
@@ -52,4 +56,10 @@ a {
 
 a:hover {
     color:yellowgreen;
+}
+
+.highlight {
+    display: inline-block;
+    background: yellow;
+    border-radius: 25px;
 }
