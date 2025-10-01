@@ -7,15 +7,18 @@ body {
     border-style: double;
     border-width: 30px;
     border-color: blueviolet;
+    border-radius: 25px;
     margin-top: 50px;
     margin-left: 170px;
     margin-inline: 400px;
     background-color: aquamarine;
     text-align:center;
+    box-shadow: 10px 10px 5px grey;
 }
 
 p {
     color: #333;
+    line-height: 150%;
 }
 
 .lead {
@@ -31,4 +34,22 @@ p {
 * {
     margin: 0px;
     padding: 0px;
+}
+
+h1 {
+    font-family: 'Segoe Print';
+    color: plum;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:cornflowerblue;
+}
+
+a {
+    color:darkcyan;
+}
+
+a:hover {
+    color:yellowgreen;
 }
