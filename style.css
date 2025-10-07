@@ -1,3 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color:darkcyan;
+    text-decoration:none;
+}
+
+a:hover {
+    color:yellowgreen;
+    text-decoration:underline;
+}
+
+a:visited {
+    color:red;
+}
+
 body {
     background-color:antiquewhite;
     font-family:'Copperplate Gothic Light';
@@ -16,24 +35,19 @@ body {
     box-shadow: 10px 10px 5px grey;
 }
 
-p {
-    color: #333;
-    line-height: 150%;
-}
-
-.lead {
-    font-size: 18px;
-    font-weight:600px;
-}
-
-#unique {
-    color:orange;
-    font-style: italic;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
+.centered {
+    margin: 0 auto;
+    padding: 5px;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(25, 214, 227);
+    border-radius: 50px;
+    min-width: 100px; max-width: 500px;
+    min-height: 100px; max-height: 300px;
+    text-align: center;
+    line-height: 100px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
@@ -50,38 +64,23 @@ h2 {
     text-align:center;
 }
 
-a {
-    color:darkcyan;
-    text-decoration:none;
-}
-
-a:hover {
-    color:yellowgreen;
-    text-decoration:underline;
-}
-
-a:visited {
-    color:red;
-}
-
-
 .highlight {
     display: inline-block;
     background: yellow;
     border-radius: 25px;
 }
 
-.centered {
-    margin: 0 auto;
-    padding: 5px;
-    width: 500px;
-    height: 100px;
-    background-color: rgb(25, 214, 227);
-    border-radius: 50px;
-    min-width: 100px; max-width: 500px;
-    min-height: 100px; max-height: 300px;
-    text-align: center;
-    line-height: 100px;
-    font-size: x-large;
-    font-family: 'Courier New', Courier, monospace;
+p {
+    color: #333;
+    line-height: 150%;
+}
+
+p.lead.test2 {
+    font-size: 18px;
+    font-weight:600px;
+}
+
+#unique {
+    color:orange;
+    font-style: italic;
 }
