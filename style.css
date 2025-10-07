@@ -58,8 +58,24 @@ a:hover {
     color:yellowgreen;
 }
 
+
 .highlight {
     display: inline-block;
     background: yellow;
     border-radius: 25px;
+}
+
+.centered {
+    margin: 0 auto;
+    padding: 5px;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(25, 214, 227);
+    border-radius: 50px;
+    min-width: 100px; max-width: 500px;
+    min-height: 100px; max-height: 300px;
+    text-align: center;
+    line-height: 100px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
