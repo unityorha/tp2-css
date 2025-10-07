@@ -52,10 +52,16 @@ h2 {
 
 a {
     color:darkcyan;
+    text-decoration:none;
 }
 
 a:hover {
     color:yellowgreen;
+    text-decoration:underline;
+}
+
+a:visited {
+    color:red;
 }
 
 
